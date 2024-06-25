@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "dismountentity",
-  "version": "3.2",
+  "version": "3.3",
 
   "name": "Dismount Entity",
   "description": "Allows players to dismount/remove/exit entities/mobs from mounted entities.",
@@ -17,13 +17,16 @@
 
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.dismountentity.ModFabric" ] },
+  "mixins": [
+	"dismountentity_fabric.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.15.0",
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.55"
+    "collective": ">=7.64"
   },
 
   "custom": {
@@ -46,11 +49,9 @@
 	  " aternosorg",
 	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
 	  " Shana Gitnick",
+	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }
