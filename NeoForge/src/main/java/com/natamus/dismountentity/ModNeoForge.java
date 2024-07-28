@@ -1,6 +1,7 @@
 package com.natamus.dismountentity;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.dismountentity.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.dismountentity.neoforge.events.NeoForgeDismountEvent;
 import com.natamus.dismountentity.util.Reference;
@@ -14,6 +15,10 @@ import net.neoforged.neoforge.common.NeoForge;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();
