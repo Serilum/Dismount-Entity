@@ -7,7 +7,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 public class NeoForgeDismountEvent {
 	@SubscribeEvent
-	public static void onPlayerInteract(PlayerInteractEvent.EntityInteractSpecific e) {
+	public static void onPlayerInteract(PlayerInteractEvent.EntityInteract e) {
 		if (DismountEvent.onPlayerInteract(e.getEntity(), e.getLevel(), e.getHand(), e.getTarget(), null).equals(InteractionResult.SUCCESS)) {
 			e.setCanceled(true);
 		}
