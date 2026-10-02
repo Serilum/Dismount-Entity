@@ -1,10 +1,10 @@
-package com.natamus.dismountentity;
+package com.serilum.dismountentity;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.dismountentity.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.dismountentity.neoforge.events.NeoForgeDismountEvent;
-import com.natamus.dismountentity.util.Reference;
+import com.serilum.dismountentity.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.dismountentity.neoforge.events.NeoForgeDismountEvent;
+import com.serilum.dismountentity.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
