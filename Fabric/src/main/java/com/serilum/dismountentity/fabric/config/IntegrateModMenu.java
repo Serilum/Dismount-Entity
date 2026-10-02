@@ -1,7 +1,7 @@
-package com.natamus.dismountentity.fabric.config;
+package com.serilum.dismountentity.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.dismountentity.util.Reference;
+import com.serilum.dismountentity.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

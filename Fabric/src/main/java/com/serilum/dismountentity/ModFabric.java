@@ -1,9 +1,9 @@
-package com.natamus.dismountentity;
+package com.serilum.dismountentity;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.dismountentity.events.DismountEvent;
-import com.natamus.dismountentity.util.Reference;
+import com.serilum.dismountentity.events.DismountEvent;
+import com.serilum.dismountentity.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 
