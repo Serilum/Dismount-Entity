@@ -1,7 +1,7 @@
-package com.natamus.dismountentity.forge.config;
+package com.serilum.dismountentity.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.dismountentity.util.Reference;
+import com.serilum.dismountentity.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

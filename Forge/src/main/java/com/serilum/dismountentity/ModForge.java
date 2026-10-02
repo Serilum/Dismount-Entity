@@ -1,10 +1,10 @@
-package com.natamus.dismountentity;
+package com.serilum.dismountentity;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.dismountentity.forge.config.IntegrateForgeConfig;
-import com.natamus.dismountentity.forge.events.ForgeDismountEvent;
-import com.natamus.dismountentity.util.Reference;
+import com.serilum.dismountentity.forge.config.IntegrateForgeConfig;
+import com.serilum.dismountentity.forge.events.ForgeDismountEvent;
+import com.serilum.dismountentity.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeDismountEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeDismountEvent.class);
 	}
 
 	private static void setGlobalConstants() {

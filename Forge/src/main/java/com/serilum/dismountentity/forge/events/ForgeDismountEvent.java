@@ -1,6 +1,6 @@
-package com.natamus.dismountentity.forge.events;
+package com.serilum.dismountentity.forge.events;
 
-import com.natamus.dismountentity.events.DismountEvent;
+import com.serilum.dismountentity.events.DismountEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
