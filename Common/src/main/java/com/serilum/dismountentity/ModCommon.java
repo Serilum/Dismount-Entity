@@ -1,7 +1,7 @@
-package com.natamus.dismountentity;
+package com.serilum.dismountentity;
 
 
-import com.natamus.dismountentity.config.ConfigHandler;
+import com.serilum.dismountentity.config.ConfigHandler;
 
 public class ModCommon {
 

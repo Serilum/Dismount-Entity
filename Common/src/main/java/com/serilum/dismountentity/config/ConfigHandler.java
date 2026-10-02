@@ -1,7 +1,7 @@
-package com.natamus.dismountentity.config;
+package com.serilum.dismountentity.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.dismountentity.util.Reference;
+import com.serilum.dismountentity.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

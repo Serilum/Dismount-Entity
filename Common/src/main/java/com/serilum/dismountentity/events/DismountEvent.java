@@ -1,6 +1,6 @@
-package com.natamus.dismountentity.events;
+package com.serilum.dismountentity.events;
 
-import com.natamus.dismountentity.config.ConfigHandler;
+import com.serilum.dismountentity.config.ConfigHandler;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
